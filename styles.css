@@ -208,6 +208,8 @@ button { font: inherit; color: inherit; }
 .messages { max-height: calc(70vh - 110px); overflow: auto; padding: 12px; display: grid; gap: 10px; }
 .message { display: grid; grid-template-columns: 28px 1fr; gap: 10px; align-items: start; }
 .message .avatar { width: 28px; height: 28px; border-radius: 50%; border: 1px solid var(--border); }
+.chat.no-avatars .message { grid-template-columns: 1fr; }
+.chat.no-avatars .message .avatar { display: none; }
 .bubble {
   padding: 8px 12px; border-radius: 12px; background: rgba(255,255,255,0.03);
   border: 1px solid var(--border);
