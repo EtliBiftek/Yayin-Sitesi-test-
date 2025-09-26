@@ -191,6 +191,7 @@ button { font: inherit; color: inherit; }
 .title { margin: 0; font-size: clamp(18px, 2vw, 24px); letter-spacing: .2px; }
 .channel { display: inline-flex; align-items: center; gap: 12px; }
 .channel .avatar { width: 36px; height: 36px; border-radius: 50%; border: 1px solid var(--border); }
+.channel .avatar.avatar-placeholder { background: rgba(255,255,255,0.06); border: 1px solid var(--border); }
 .channel .name { font-weight: 700; }
 .channel .game { color: var(--text-500); font-size: 13px; }
 
