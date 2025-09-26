@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="tr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="color-scheme" content="dark light">
+    <title>Yayın Sitesi(test) – Keşfet</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div id="app" class="app">
+      <aside class="sidebar" aria-label="Yan menü">
+        <div class="brand">
+          <div class="logo">
+            <svg width="28" height="28" viewBox="0 0 24 24" aria-hidden="true">
+              <defs>
+                <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%">
+                  <stop offset="0%" stop-color="#ff3b5c"/>
+                  <stop offset="50%" stop-color="#ff546c"/>
+                  <stop offset="100%" stop-color="#ffffff"/>
+                </linearGradient>
+              </defs>
+              <path fill="url(#g)" d="M12 2l7 4v8l-7 8-7-8V6l7-4z"/>
+            </svg>
+          </div>
+          <span class="brand-name">Yayın Sitesi(test)</span>
+        </div>
+
+        <nav class="nav">
+          <a class="nav-item" href="index.html">
+            <span class="icon" aria-hidden="true">
+              <svg width="22" height="22" viewBox="0 0 24 24"><path d="M12 3l9 8h-3v9h-5v-6H11v6H6v-9H3z" fill="currentColor"/></svg>
+            </span>
+            <span class="label">Anasayfa</span>
+          </a>
+          <a class="nav-item active" href="discover.html" aria-current="page">
+            <span class="icon" aria-hidden="true">
+              <svg width="22" height="22" viewBox="0 0 24 24"><path d="M12 2l7 6-7 6-7-6 7-6zm0 14l7 6H5l7-6z" fill="currentColor"/></svg>
+            </span>
+            <span class="label">Keşfet</span>
+          </a>
+          <a class="nav-item" href="categories.html">
+            <span class="icon" aria-hidden="true">
+              <svg width="22" height="22" viewBox="0 0 24 24"><path d="M3 3h8v8H3V3zm10 0h8v8h-8V3zM3 13h8v8H3v-8zm10 0h8v8h-8v-8z" fill="currentColor"/></svg>
+            </span>
+            <span class="label">Kategoriler</span>
+          </a>
+          <a class="nav-item" href="subscriptions.html">
+            <span class="icon" aria-hidden="true">
+              <svg width="22" height="22" viewBox="0 0 24 24"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 6 4 4 6.5 4c1.74 0 3.41.81 4.5 2.09C12.09 4.81 13.76 4 15.5 4 18 4 20 6 20 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" fill="currentColor"/></svg>
+            </span>
+            <span class="label">Abonelikler</span>
+          </a>
+          <a class="nav-item" href="profile.html">
+            <span class="icon" aria-hidden="true">
+              <svg width="22" height="22" viewBox="0 0 24 24"><path d="M12 12c2.7 0 5-2.3 5-5s-2.3-5-5-5-5 2.3-5 5 2.3 5 5 5zm0 2c-3.3 0-10 1.7-10 5v3h20v-3c0-3.3-6.7-5-10-5z" fill="currentColor"/></svg>
+            </span>
+            <span class="label">Profil</span>
+          </a>
+        </nav>
+
+        <button class="collapse" id="collapseSidebar" aria-label="Yan menüyü daralt/aç">
+          <svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M10 6l6 6-6 6V6z"/></svg>
+        </button>
+      </aside>
+
+      <main class="main">
+        <header class="topbar">
+          <div class="search">
+            <svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0016 9.5 6.5 6.5 0 109.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zM9.5 14C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/></svg>
+            <input type="search" placeholder="Yayın, oyun, kanal ara" aria-label="Ara">
+          </div>
+          <div class="actions">
+            <button class="btn ghost" title="Bildirimler" aria-label="Bildirimler">
+              <svg width="20" height="20" viewBox="0 0 24 24"><path fill="currentColor" d="M12 22a2 2 0 002-2H10a2 2 0 002 2zm6-6V11a6 6 0 10-12 0v5L4 18v2h16v-2l-2-2z"/></svg>
+            </button>
+            </button>
+          </div>
+        </header>
+
+        <section class="recommended" aria-label="Trend Olanlar">
+          <div class="section-head">
+            <h2>Trend Olanlar</h2>
+          </div>
+          <div class="grid">
+            <a class="stream-card" href="watch.html">
+              <div class="stream-thumb">
+                <img src="https://images.unsplash.com/photo-1550745165-9bc0b252726f?q=80&w=1200&auto=format&fit=crop" alt="Yayın Sitesi(test)">
+                <video class="preview" src="https://storage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" muted loop playsinline></video>
+                <span class="pill live sm"><span class="dot"></span> Live • 8.7K</span>
+              </div>
+              <div class="stream-info">
+                <img class="avatar" src="https://i.pravatar.cc/100?img=22" alt="Kairi">
+                <div class="meta">
+                  <h3>Yayın Başlığı</h3>
+                  <p><strong>Kairi</strong> • Valorant</p>
+                  <div class="tags"><span class="tag">TR</span><span class="tag">FPS</span></div>
+                </div>
+              </div>
+            </a>
+
+            <a class="stream-card" href="watch.html">
+              <div class="stream-thumb">
+                <img src="https://images.unsplash.com/photo-1542751371-adc38448a05e?q=80&w=1200&auto=format&fit=crop" alt="Yayın Sitesi(test)">
+                <video class="preview" src="https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4" muted loop playsinline></video>
+                <span class="pill live sm"><span class="dot"></span> Live • 999</span>
+              </div>
+              <div class="stream-info">
+                <img class="avatar" src="https://i.pravatar.cc/100?img=24" alt="SpartanX">
+                <div class="meta">
+                  <h3>Yayın Başlığı</h3>
+                  <p><strong>SpartanX</strong> • Warzone</p>
+                  <div class="tags"><span class="tag">TR</span><span class="tag">Turnuva</span></div>
+                </div>
+              </div>
+            </a>
+
+            <a class="stream-card" href="watch.html">
+              <div class="stream-thumb">
+                <img src="https://images.unsplash.com/photo-1549923746-c502d488b3ea?q=80&w=1200&auto=format&fit=crop" alt="Yayın Sitesi(test)">
+                <video class="preview" src="https://storage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4" muted loop playsinline></video>
+                <span class="pill live sm"><span class="dot"></span> Live • 999</span>
+              </div>
+              <div class="stream-info">
+                <img class="avatar" src="https://i.pravatar.cc/100?img=11" alt="Blocksie">
+                <div class="meta">
+                  <h3>Yayın Başlığı</h3>
+                  <p><strong>Blocksie</strong> • Minecraft</p>
+                  <div class="tags"><span class="tag">Survival</span><span class="tag">TR</span></div>
+                </div>
+              </div>
+            </a>
+
+            <a class="stream-card" href="watch.html">
+              <div class="stream-thumb">
+                <img src="https://images.unsplash.com/photo-1542909168-82c3e7fdca5c?q=80&w=1200&auto=format&fit=crop" alt="Yayın Sitesi(test)">
+                <video class="preview" src="https://storage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4" muted loop playsinline></video>
+                <span class="pill live sm"><span class="dot"></span> Live • 999</span>
+              </div>
+              <div class="stream-info">
+                <img class="avatar" src="https://i.pravatar.cc/100?img=54" alt="Raven">
+                <div class="meta">
+                  <h3>Yayın Başlığı</h3>
+                  <p><strong>Raven</strong> • Apex</p>
+                  <div class="tags"><span class="tag">Ranked</span><span class="tag">TR</span></div>
+                </div>
+              </div>
+            </a>
+
+            <a class="stream-card" href="watch.html">
+              <div class="stream-thumb">
+                <img src="https://images.unsplash.com/photo-1511512578047-dfb367046420?q=80&w=1200&auto=format&fit=crop" alt="Yayın Sitesi(test)">
+                <video class="preview" src="https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4" muted loop playsinline></video>
+                <span class="pill live sm"><span class="dot"></span> Live • 999</span>
+              </div>
+              <div class="stream-info">
+                <img class="avatar" src="https://i.pravatar.cc/100?img=31" alt="EchoFox">
+                <div class="meta">
+                  <h3>Yayın Başlığı</h3>
+                  <p><strong>EchoFox</strong> • IRL</p>
+                  <div class="tags"><span class="tag">Travel</span><span class="tag">TR</span></div>
+                </div>
+              </div>
+            </a>
+
+          </div>
+        </section>
+
+        <section class="categories" aria-label="Öne Çıkan Kategoriler">
+          <div class="section-head">
+            <h2>Öne Çıkan Kategoriler</h2>
+          </div>
+          <div class="category-row">
+            <a class="category" href="#"><img class="icon" src="https://images.unsplash.com/photo-1550745165-9bc0b252726f?q=80&w=200&auto=format&fit=crop" alt="Valorant"><span>Valorant</span></a>
+            <a class="category" href="#"><img class="icon" src="https://images.unsplash.com/photo-1542751371-adc38448a05e?q=80&w=200&auto=format&fit=crop" alt="Yayın Sitesi(test)"><span>Warzone</span></a>
+            <a class="category" href="#"><img class="icon" src="https://images.unsplash.com/photo-1549923746-c502d488b3ea?q=80&w=200&auto=format&fit=crop" alt="Yayın Sitesi(test)"><span>Minecraft</span></a>
+            <a class="category" href="#"><img class="icon" src="https://images.unsplash.com/photo-1542909168-82c3e7fdca5c?q=80&w=200&auto=format&fit=crop" alt="Yayın Sitesi(test)"><span>Apex</span></a>
+            <a class="category" href="#"><img class="icon" src="https://images.unsplash.com/photo-1502218808490-39d61f7d4d8a?q=80&w=200&auto=format&fit=crop" alt="Just Chatting"><span>Just Chatting</span></a>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <script src="app.js" type="module"></script>
+  </body>
+  </html>
